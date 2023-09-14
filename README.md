@@ -8,7 +8,7 @@ Vitebi algorithm
 
 ## Baum_Welch.py
 scaled forward
-\n
+
 scaled backward
 
 Baum Welch algorithm
