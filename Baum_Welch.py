@@ -83,7 +83,6 @@ def scaled_forward_b(O, T, b, pi):
             alpha[t, j] = alpha_hat[t - 1, :] @ T[:, j] * b[t,j]
         G[t] = sum(alpha[t,:]) #G[t] = sum_(j=1)^(3) alpha[t,j]
         alpha_hat[t, :] = alpha[t,:]/G[t] #alpha_hat[t,j] = alpha[t,j]/G[t]
-        #print('哈哈复合肥',alpha_hat.shape,G.shape)
         #end2 = time.time()
         #print('emission calculate time :', end2 - start2)
     #end = time.time()
