@@ -16,6 +16,9 @@ Baum Welch algorithm
 ## generate.py
 We use this to creat artifitial dataset to try out the algorithm
 
+## file: `C`
+We use C code to improve the training speed.
+
 ## reference
 hamzarawal's repository helped me a lot at the starting point. 
 
